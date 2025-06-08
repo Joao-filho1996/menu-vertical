@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <img src="imagens/logo.png" alt="Logo do site" style="float: right; width: 280px;">
+  <title>Login - Administração</title>
+   <link rel="stylesheet" href="style.css">
+  
+  <style >form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.campo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.campo label {
+  width: 80px; /* mesma largura para todos os rótulos */
+  font-weight: bold;
+}
+
+.campo input {
+  flex: 1;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+</style>
+</head>
+<body bgcolor="white" text="black">
+ 
+  <header><h1>Área de Administração</h1></header>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="login.html">Login</a>
+    <a href="admin-usuario.html">Usuários</a>
+    <a href="admin-temas.html">Objetos Tema</a>
+    <span style="margin-left:20px">
+      <a href="cadastro-usuario.html">Cadastrar Usuário</a>
+      <a href="cadastro-temas.html">Cadastrar Tema</a>
+    </span>
+  </nav>
+  <main>
+     <h2>Login</h2>
+    <table cellpadding="5">
+        <tr>
+            <td align="right"><b>Usuário:</b></td>
+             <font color="white" size="5" face="Arial"> 
+            <td><input type="text" name="usuario"></td>
+        </tr>
+        <tr>
+            <td align="right"><b>Senha:</b></td>
+            <td><input type="password" name="senha"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Entrar"></td>
+        </tr>
+    </table>
+    </form>
+  </main>
+  <footer>
+    <p>Desenvolvido por João francisco Peixoto de Araujo <a href="autor.html">Sobre o Autor</a></p>
+  </footer>
+</body>
+</html>
